@@ -14,16 +14,9 @@ namespace RNE
             RomanNumberException nol = null;
             try
             {
-                
-                if (n == 0 || n < 0)
-                {
-                   throw new Exception("Ошибка: Недопустимое значение, допустимый диапозон {1-1000}");
-                }
-                else
-                {
-                    Console.WriteLine($"Вы ввели: {n}");
-                }
-                
+
+                   throw new Exception("Ошибка: Недопустимое значение, допустимый диапозон {1-999}");
+
             }
             catch (Exception ex)
             {
